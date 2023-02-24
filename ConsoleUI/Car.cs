@@ -13,7 +13,7 @@ namespace ConsoleUI
              * Provide the implementations for the abstract methods -- DONE
              * Only in the Motorcycle class will you override the virtual drive method -- DONE
             */
-        public bool HasTrunk = true;
+        public bool HasTrunk { get; set; } = true;
         public override void DriveAbstract()
         {
             Console.WriteLine("Car go vroom");
